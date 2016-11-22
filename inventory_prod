@@ -12,7 +12,6 @@ db1
 [datacenter:children]
 webservers
 dbservers
+cacheservers
 
 [datacenter:vars]
-ansible_ssh_user=vagrant
-ansible_ssh_pass=vagrant
